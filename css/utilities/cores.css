@@ -27,44 +27,44 @@
 
 /* Utilitários cor primária */
 .cor-p1 {
-  color: var(--p1);
+  color: var(--cor-p1);
 }
 
 .cor-p1-1 {
-  color: var(--p1-1);
+  color: var(--cor-p1-1);
 }
 
 .cor-p1-2 {
-  color: var(--p1-2);
+  color: var(--cor-p1-2);
 }
 
 .cor-p1-3 {
-  color: var(--p1-3);
+  color: var(--cor-p1-3);
 }
 
 .cor-p1-4 {
-  color: var(--p1-4);
+  color: var(--cor-p1-4);
 }
 
 
 .cor-p2 {
-  color: var(--p2);
+  color: var(--cor-p2);
 }
 
 .cor-p2-1 {
-  color: var(--p2-1);
+  color: var(--cor-p2-1);
 }
 
 .cor-p2-2 {
-  color: var(--p2-2);
+  color: var(--cor-p2-2);
 }
 
 .cor-p2-3 {
-  color: var(--p2-3);
+  color: var(--cor-p2-3);
 }
 
 .cor-p2-4 {
-  color: var(--p2-4);
+  color: var(--cor-p2-4);
 }
 
 
@@ -73,19 +73,19 @@
 }
 
 .cor-p3-1 {
-  color: var(--p3-1);
+  color: var(--cor-p3-1);
 }
 
 .cor-p3-2 {
-  color: var(--p3-2);
+  color: var(--cor-p3-2);
 }
 
 .cor-p3-3 {
-  color: var(--p3-3);
+  color: var(--cor-p3-3);
 }
 
 .cor-p3-4 {
-  color: var(--p3-4);
+  color: var(--cor-p3-4);
 }
 
 /* utilitários para preto e branco */

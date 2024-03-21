@@ -1,0 +1,17 @@
+/* Global */
+@import './global/global.css';
+@import './global/header.css';
+@import './global/footer.css';
+
+/* Utilidades */
+@import './utilities/cores.css';
+@import './utilities/tipografia.css';
+@import './utilities/componentes.css';
+
+/* Páginas */
+@import './home/home.css';
+@import './cardapio/cardapio.css';
+@import './aniversario/aniversario.css';
+@import './sobre/sobre.css';
+@import './clube/clube.css';
+@import './franquia/franquia.css';

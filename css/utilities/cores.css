@@ -1,1 +1,101 @@
-/* Codigo CSS aqui */
+:root {
+  /* Cor primária 01 */
+  --cor-p1: #95994C;
+  --cor-p1-1: #A4A85D;
+  --cor-p1-2: #B1B46E;
+  --cor-p1-3: #C1C483;
+  --cor-p1-4: #D0D398;
+
+  /* Cor primária 02 */
+  --cor-p2: #B1B46E;
+  --cor-p2-1: #DADCB0;
+  --cor-p2-2: #E3E5BE;
+  --cor-p2-3: #EEF0D1;
+  --cor-p2-4: #FBFCE7;
+
+  /* Cor primária 03 */
+  --cor-p3: #432918;
+  --cor-p3-1: #513422;
+  --cor-p3-2: #5E3F2C;
+  --cor-p3-3: #6C4B37;
+  --cor-p3-4: #7C5944;
+
+  /* Preto e Branca */
+  --white: #ffffff;
+  --black: #000000;
+}
+
+/* Utilitários cor primária */
+.cor-p1 {
+  color: var(--p1);
+}
+
+.cor-p1-1 {
+  color: var(--p1-1);
+}
+
+.cor-p1-2 {
+  color: var(--p1-2);
+}
+
+.cor-p1-3 {
+  color: var(--p1-3);
+}
+
+.cor-p1-4 {
+  color: var(--p1-4);
+}
+
+
+.cor-p2 {
+  color: var(--p2);
+}
+
+.cor-p2-1 {
+  color: var(--p2-1);
+}
+
+.cor-p2-2 {
+  color: var(--p2-2);
+}
+
+.cor-p2-3 {
+  color: var(--p2-3);
+}
+
+.cor-p2-4 {
+  color: var(--p2-4);
+}
+
+
+.cor-p3 {
+  color: var(--p3);
+}
+
+.cor-p3-1 {
+  color: var(--p3-1);
+}
+
+.cor-p3-2 {
+  color: var(--p3-2);
+}
+
+.cor-p3-3 {
+  color: var(--p3-3);
+}
+
+.cor-p3-4 {
+  color: var(--p3-4);
+}
+
+/* utilitários para preto e branco */
+.cor-b {
+  color: var(--black);
+}
+
+.cor-w {
+  color: var(--white);
+}
+
+
+

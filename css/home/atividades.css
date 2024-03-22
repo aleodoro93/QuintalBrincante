@@ -1,1 +1,48 @@
-/* Codigo CSS aqui */
+.atividades-bg {
+  background: url('../../src/img/atividades/atividades-bg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.atividades {
+  display: grid;
+  gap: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.atividades-card {
+  display: flex;
+}
+
+.atividades-card p {
+  margin-top: 0.8rem;
+  max-width: 50ch;
+}
+
+.atividades-card-conteudo {
+  padding: 5rem;
+  padding-left: 12rem;
+  min-width: 70%;
+  max-height: 300px;
+  background: var(--cor-p2-4);
+}
+
+.atividades-card:nth-child(odd) {
+  justify-content: end;
+}
+
+.atividades-card-conteudo h2 {
+  text-transform: uppercase;
+  position: relative;
+}
+
+.atividades-card-conteudo h2::before {
+  content: '';
+  display: block;
+  background: var(--cor-p1-1);
+  width: 12px;
+  height: 23px;
+  position: absolute;
+  top: 6px;
+  left: -22px;
+}

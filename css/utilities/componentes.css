@@ -1,1 +1,17 @@
-/* Codigo CSS aqui */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.botao-esc {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  background: var(--cor-p3);
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 12rem;
+}

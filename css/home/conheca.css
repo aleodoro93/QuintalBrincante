@@ -1,1 +1,20 @@
-/* Codigo CSS aqui */
+.conheca-bg {
+  background: var(--cor-p2-4);
+}
+.conheca {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  gap: 4rem;
+}
+
+.conheca img {
+  object-fit: cover;
+  min-height: 100%;
+  object-position: right;
+}
+
+.conheca-conteudo p {
+  margin-top: 1.2rem;
+}

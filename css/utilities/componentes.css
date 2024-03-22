@@ -1,7 +1,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 4rem;
 }
 
 .botao-esc {
@@ -14,4 +14,8 @@
 
 .logo {
   width: 12rem;
+}
+
+.center {
+  text-align: center;
 }

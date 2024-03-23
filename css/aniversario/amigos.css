@@ -1,1 +1,20 @@
-/* Codigo CSS aqui */
+.amigos-bg {
+  background: var(--cor-p2-4);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.amigos {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 12rem;
+}
+
+.amigos div img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.amigos p {
+  margin-top: 1.2rem;
+}

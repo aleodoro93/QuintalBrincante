@@ -1,1 +1,31 @@
-/* Codigo CSS aqui */
+.vantagens-bg {
+  background: var(--cor-p2-3);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.vantagens h3 {
+  text-transform: uppercase;
+}
+
+.vantagens-lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem 4rem;
+  margin-top: 4rem;
+}
+
+.vantagem-item {
+  background: var(--cor-p2-4);
+  padding: 3rem;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.vantagem-item h3 {
+  margin-top: 0.2rem;
+}
+
+.vantagem-item p {
+  margin-top: 1.2rem;
+}

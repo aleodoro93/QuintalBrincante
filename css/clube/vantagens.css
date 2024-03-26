@@ -1,7 +1,6 @@
 .vantagens-bg {
   background: var(--cor-p2-3);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding: 6rem 0;
 }
 
 .vantagens h3 {

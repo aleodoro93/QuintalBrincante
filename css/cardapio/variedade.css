@@ -1,1 +1,15 @@
 /* Codigo CSS aqui */
+.variedade-bg{
+    background-color: var(--cor-p2-4);
+    padding: 6rem 0;
+}
+
+.variedade{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+}
+
+.variedade-conteudo p{
+    margin-top: 4.2rem;
+}

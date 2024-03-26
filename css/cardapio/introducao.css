@@ -1,1 +1,16 @@
 /* Codigo CSS aqui */
+.cardapio-bg{
+    background-image: url("../../src/img/cardapio/cardapio-img-03.jpg");
+    background-size: cover;
+    height: 67.8rem;
+}
+
+.cardapio{
+    display: grid;
+    height: 100%;
+    align-items: center;
+}
+
+.cardapio h1{
+    text-align: center;
+}

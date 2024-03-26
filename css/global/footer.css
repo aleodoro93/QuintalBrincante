@@ -1,1 +1,101 @@
-/* Codigo CSS aqui */
+/* Footer Globais */
+.footer-bg {
+  background: var(--cor-p2-4);
+  height: 28rem;
+  padding-top: 60px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.footer-detalhe::after {
+  content: '';
+  width: 2px;
+  height: 120px;
+  display: block;
+  background: var(--cor-p3-4);
+  position: absolute;
+}
+
+/* Footer Redes */
+.logo-redes {
+  text-align: center;
+}
+
+.logo-redes p {
+  margin-top: 1.8rem;
+}
+
+.redes-menu {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.redes-menu img {
+  width: 3.2rem;
+}
+
+/* Footer Menu */
+.footer-menu {
+  position: relative;
+}
+
+.footer-menu::after {
+  top: 0px;
+  right: -30px;
+}
+
+.footer-menu-nav {
+  display: grid;
+  margin-top: 2rem;
+  gap: 15px 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Footer Contato */
+.footer-contato {
+  position: relative;
+}
+
+.contato-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.contato-item:nth-child(2) {
+  margin-top: 20px;
+}
+
+.contato-item:nth-child(n + 3) {
+  margin-top: 10px;
+}
+
+.footer-contato::after {
+  right: -30px;
+  top: 0px;
+}
+
+/* Footer Endereço */
+.endereco-item {
+  display: grid;
+  grid-template-columns: repeat(24px, 1fr);
+  gap: 8px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.endereco-item a {
+  grid-column: 2;
+}
+
+/* Rodapé */
+.rodape-bg {
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--cor-p3-1);
+}

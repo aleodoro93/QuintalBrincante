@@ -1,1 +1,17 @@
-/* Codigo CSS aqui */
+.aprendizado-bg {
+  background: var(--cor-p2-4);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.aprendizado {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 12rem;
+}
+
+.aprendizado div img {
+  object-fit: cover;
+  min-height: 100%;
+  object-position: right;
+}

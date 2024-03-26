@@ -1,1 +1,24 @@
-/* Codigo CSS aqui */
+.parceiro-bg {
+  background: url('../../src/img/seja-franquiado/seja-parceiro.jpg') no-repeat;
+  background-size: cover;
+}
+
+.parceiro {
+  display: grid;
+  height: 800px;
+  place-items: center;
+}
+
+.parceiro-card {
+  background: var(--cor-p2-4);
+  padding: 6rem;
+}
+
+.parceiro p {
+  margin-top: 1.2rem;
+  max-width: 40ch;
+}
+
+.parceiro a {
+  margin-top: 2.4rem;
+}

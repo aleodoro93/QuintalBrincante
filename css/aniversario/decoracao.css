@@ -1,1 +1,19 @@
-/* Codigo CSS aqui */
+.decoracao-bg {
+  background: var(--cor-p2-3);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.decoracao {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 6rem;
+}
+
+.decoracao-conteudo p:nth-child(2) {
+  margin-top: 1.2rem;
+}
+
+.decoracao-conteudo p:nth-child(3) {
+  margin-top: 6rem;
+}

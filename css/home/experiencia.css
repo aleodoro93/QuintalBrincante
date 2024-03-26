@@ -1,0 +1,33 @@
+.experiencia-bg {
+  background: var(--cor-p2-3);
+}
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  gap: 12rem;
+}
+
+.experiencia-conteudo h3,
+.experiencia-item h4 {
+  text-transform: uppercase;
+}
+
+.experiencia-conteudo p {
+  margin-top: 2rem;
+}
+
+.experiencia-lista {
+  display: grid;
+  gap: 2rem;
+}
+
+.experiencia-lista h4 {
+  margin-top: 0.2rem;
+}
+
+.experiencia-lista p {
+  margin-top: 1.2rem;
+}

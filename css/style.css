@@ -7,6 +7,7 @@
 @import './utilities/cores.css';
 @import './utilities/tipografia.css';
 @import './utilities/componentes.css';
+@import './utilities/depoimento.css';
 
 /* Páginas */
 @import './home/home.css';

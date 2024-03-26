@@ -1,1 +1,22 @@
-/* Codigo CSS aqui */
+.custo-bg {
+  background: var(--cor-p2-3);
+  padding: 6rem 0;
+  display: grid;
+}
+
+.custo {
+  padding: 0 8rem;
+}
+
+.custo-titulo {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  gap: 16px;
+  align-items: center;
+  text-align: right;
+}
+
+.custo p {
+  margin-top: 2.4rem;
+  max-width: 54ch;
+}

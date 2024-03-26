@@ -10,6 +10,11 @@
   gap: 12rem;
 }
 
+.experiencia-item {
+  background: var(--cor-p2-4);
+  padding: 2rem;
+}
+
 .experiencia-conteudo h3,
 .experiencia-item h4 {
   text-transform: uppercase;

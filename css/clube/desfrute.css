@@ -1,1 +1,18 @@
-/* Codigo CSS aqui */
+.desfrutar-bg {
+  background: var(--cor-p2-3);
+  padding: 6rem 0;
+}
+
+.desfrutar {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.desfrutar p {
+  margin-top: 1.6rem;
+}
+
+.desfrutar a {
+  margin-top: 2.4rem;
+}

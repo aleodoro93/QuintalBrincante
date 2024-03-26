@@ -1,1 +1,15 @@
-/* Codigo CSS aqui */
+.aniversario-bg {
+  background: url('../../src/img/aniversario/aniversario-bg.jpg') no-repeat;
+  background-size: cover;
+  height: 67.8rem;
+}
+
+.aniversario {
+  display: grid;
+  height: 100%;
+  align-items: center;
+}
+
+.aniversario h1 {
+  text-align: center;
+}

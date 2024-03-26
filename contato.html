@@ -1,15 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato | Quintal Brincante</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400,600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Quintal Brincante</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body id="contato">
+
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./index.html">
+        <img class="logo" src="./src/logo/qb-logo.png" alt="logo quintal brincante">
+      </a>
+
+      <nav>
+        <ul class="menu font-1-l cor-p3">
+          <li><a href="./cardapio.html">Cardápio</a></li>
+          <li><a href="./aniversario.html">Aniversário</a></li>
+          <li><a href="./clube.html">Clube</a></li>
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="botao-esc font-1-m-b cor-p2-3" href="./franquia.html">Seja Franquiado</a>
+    </div>
+  </header>
+
+  <main class="contato-bg">
+    <div class="contato container">
+      <div class="contato-info-bg">
+        <div class="contato-info">
+          <h3 class="font-1-l cor-p2-4">Endereço & Contato</h3>
+          
+          <div class="contato-lista font-2-m cor-p1-3">
+            <div class="contato-lista-item endereco">
+              <img src="./src/img/contato/local.svg" alt="">
+              <a href="">Rua Leão Sallum, 1316</a>
+              <a href="">Boa Vista - Curitiba - PR</a>
+            </div>
+
+            <div class="contato-lista-item">
+              <img src="./src/img/contato/email.svg" alt="">
+              <a href="mail@to">contato@quintal.com.br</a>
+            </div>
+
+            <div class="contato-lista-item">
+              <img src="./src/img/contato/telefone.svg" alt="">
+              <a href="">(41) 3225-6811</a>
+            </div>
+
+            <div class="contato-lista-item">
+              <img src="./src/img/contato/whats.svg" alt="">
+              <a href="">(41) 98778-2232</a>
+            </div>
+          </div>
+        </div>
+  
+        <nav>
+          <ul class="redes-menu">
+            <li><a href="https://instagram.com" target="_blank"><img src="./src/icons/instagram-w.svg" alt="logo instagram" target="_blank"></img></a></li>
+            <li><a href="https://facebook.com" target="_blank"><img src="./src/icons/facebook-w.svg" alt="logo facebook"></img></a></li>
+            <li><a href="https://youtube.com"><img src="./src/icons/youtube-w.svg" alt="logo youtube"></img></a></li>
+          </ul>
+        </nav>
+      </div>
+  
+      <div class="contato-form">
+        <div class="formulario-bg">
+          <h4 class="font-2-s cor-p1-3">Nos contate</h4>
+          <form class="formulario font-1-m cor-p3" action="">
+            <div class="nome-completo">
+              <div class="formulario-item">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text">
+              </div>
+      
+              <div class="formulario-item">
+                <label for="sobrenome">Sobrenome</label>
+                <input id="sobrenome" type="text">
+              </div>
+            </div>
+    
+            <div class="formulario-item">
+              <label for="email">Email</label>
+              <input id="email" type="text">
+            </div>
+    
+            <div class="formulario-item">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+    
+            <a class="botao-esc font-1-m cor-p2-3" href="">enviar</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="rodape-bg font-2-s cor-p1-4">
+    <p>Quintal Brincate ® 2024</p>
+  </div>
 
 </body>
 </html>

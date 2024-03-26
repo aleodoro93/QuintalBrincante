@@ -1,1 +1,39 @@
-/* Codigo CSS aqui */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.container-depoimento {
+  max-width: 1200px;
+  margin: 0 0 0 auto;
+  padding: 0 0 0 4rem;
+}
+
+.container-sobre-l {
+  max-width: 1200px;
+  margin: 0 auto 0 0;
+  padding: 0 4rem 0 0;
+}
+
+.container-sobre-r {
+  max-width: 1200px;
+  margin: 0 0 0 auto;
+  padding: 0 0 0 4rem;
+}
+
+.botao-esc {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  background: var(--cor-p3);
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.center {
+  text-align: center;
+}

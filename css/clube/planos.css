@@ -1,1 +1,63 @@
-/* Codigo CSS aqui */
+.planos-bg {
+  background: var(--cor-p2-4);
+  padding: 6rem 0;
+}
+
+.planos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.planos-item {
+  background: var(--cor-p2-2);
+  padding: 3.2rem 4rem;
+}
+
+.planos-item h3 {
+  text-transform: uppercase;
+}
+
+.planos .planos-item:first-child h3 {
+  color: #B3B3B3;
+}
+
+.planos-item-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plano-preco {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.plano-vantagens {
+  margin-top: 3.2rem;
+}
+
+.plano-vantagens li {
+  margin-top: 0.8rem;
+  position: relative;
+  padding-left: 28px;
+}
+
+.plano-vantagens li::before {
+  content:  '';
+  width: 1.8rem;
+  height: 1.8rem;
+  display: block;
+  background: url('../../src/icons/check.svg');
+  position: absolute;
+  left: 0px;
+}
+
+.planos-item a {
+  padding: 1rem 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.botao-cinza {
+  background: #B3B3B3;
+}

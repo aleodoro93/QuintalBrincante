@@ -1,1 +1,8 @@
-/* Codigo CSS aqui */
+.clube-bg {
+  background: url('../../src/img/clube/introducao.jpg');
+  height: 68rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  
+}

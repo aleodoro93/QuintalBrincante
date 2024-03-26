@@ -1,1 +1,17 @@
-/* Codigo CSS aqui */
+.header-bg {
+  background: var(--cor-p2-4);
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+}

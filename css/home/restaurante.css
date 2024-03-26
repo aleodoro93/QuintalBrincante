@@ -1,0 +1,24 @@
+.restaurante-bg {
+  background: var(--cor-p2-4);
+}
+
+.restaurante {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  gap: 12rem;
+}
+
+.restaurante-conteudo {
+  grid: 2;
+}
+
+.restaurante-conteudo p {
+  margin-top: 1rem;
+}
+
+.restaurante img {
+  object-fit: cover;
+  min-height: 100%;
+}

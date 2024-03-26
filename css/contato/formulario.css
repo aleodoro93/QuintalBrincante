@@ -1,1 +1,91 @@
-/* Código CSS aqui */
+.contato-bg {
+  background: var(--cor-p2-3);
+  padding: 13rem 0;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contato-info-bg {
+  background: var(--cor-p3);
+  padding: 6rem;
+}
+
+.contato-lista {
+  margin-top: 4rem;
+  display: grid;
+  gap: 3.2rem;
+}
+
+.contato-lista-item {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contato-lista .contato-lista-item:nth-child(1) {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+}
+
+.contato-lista .endereco a:nth-child(3) {
+  grid-column: 2;
+}
+
+#contato .redes-menu {
+  margin-top: 6rem;
+}
+
+.contato-form h4 {
+  padding: 5rem 0 0 5rem;
+  position: relative;
+}
+
+.contato-form h4::after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 8px;
+  background: var(--cor-p1-3);
+  position: absolute;
+  top: 55px;
+  left: 40px;
+}
+
+.formulario-bg {
+  background: var(--cor-p2-4);
+}
+
+.formulario {
+  display:  grid;
+  gap: 2.4rem;
+  padding: 5rem;
+}
+
+.formulario-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.nome-completo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+#contato .formulario input,
+#contato .formulario textarea {
+  padding: 1.2rem 3.2rem;
+  border-radius: 4px;
+  border: 0.1mm ridge rgba(193, 196, 131, .3);
+}
+
+.formulario a {
+  padding: 1.2rem 4rem;
+  place-self: center;
+}

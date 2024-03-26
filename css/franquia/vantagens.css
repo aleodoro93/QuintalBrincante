@@ -1,1 +1,21 @@
-/* Codigo CSS aqui */
+.vantagens-bg {
+  background: var(--cor-p2-4);
+  padding: 6rem 0;
+  display: grid;
+}
+
+.vantagens {
+  padding: 0 8rem;
+}
+
+.vantagens-titulo {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 16px;
+  align-items: center;
+}
+
+.vantagens p {
+  margin-top: 2.4rem;
+  max-width: 54ch;
+}

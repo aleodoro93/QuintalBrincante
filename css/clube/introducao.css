@@ -1,5 +1,6 @@
 .clube-bg {
-  background: url('../../src/img/clube/introducao.jpg');
+  background: url('../../src/img/clube/introducao.jpg') no-repeat;
+  background-size: cover;
   height: 68rem;
   display: grid;
   align-items: center;

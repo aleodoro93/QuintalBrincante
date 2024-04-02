@@ -12,6 +12,7 @@
 .planos-item {
   background: var(--cor-p2-2);
   padding: 3.2rem 4rem;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
 .planos-item h3 {

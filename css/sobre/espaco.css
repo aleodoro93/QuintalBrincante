@@ -1,17 +1,23 @@
-.espaco-bg {
-  background: var(--cor-p2-4);
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
 .espaco {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 12rem;
+  grid-template-columns: repeat(2, 1fr);
+  background: var(--cor-p2-3);
+  padding: 6rem 0;
 }
 
 .espaco div img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  min-height: 100%;
-  object-position: right;
 }
+
+.espaco-conteudo {
+  padding: 190px 80px;
+  align-self: center;
+  background: var(--cor-p2-4);
+}
+
+.espaco-conteudo p {
+  margin-top: 2rem;
+}
+

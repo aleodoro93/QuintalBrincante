@@ -1,16 +1,15 @@
 /* Codigo CSS aqui */
-.conheca-cardapio-bg{
-    background-color: var(--cor-p2-3);
-    padding: 6rem 0;
+.conheca-cardapio-bg {
+  background-color: var(--cor-p2-3);
+  padding: 6rem 0;
 }
-.conheca-cardapio div{
-   
-    text-align: center;
+.conheca-cardapio {
+  text-align: center;
 }
-.conheca-cardapio p{
-    margin-top: 2rem;
+.conheca-cardapio p {
+  margin-top: 2rem;
 }
 
-.conheca-cardapio a{
-    margin-top: 3.5rem;
+.conheca-cardapio a {
+  margin-top: 3.5rem;
 }

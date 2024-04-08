@@ -1,15 +1,21 @@
 /* Codigo CSS aqui */
-.variedade-bg{
-    background-color: var(--cor-p2-4);
-    padding: 6rem 0;
+.variedade-bg {
+  background-color: var(--cor-p2-4);
+  padding: 6rem 0;
 }
 
-.variedade{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-
+.variedade {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
 }
 
-.variedade-conteudo p{
-    margin-top: 4.2rem;
+.variedade-conteudo p {
+  margin-top: 4.2rem;
 }
+
+.variedade img {
+  height: 100%;
+  object-fit: cover;
+}
+
+

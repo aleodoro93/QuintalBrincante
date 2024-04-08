@@ -1,15 +1,19 @@
 /* Codigo CSS aqui */
-.petiscos-bg{
-    background-color: var(--cor-p2-4);
-    padding: 6rem 0;
+.petiscos-bg {
+  background-color: var(--cor-p2-4);
+  padding: 6rem 0;
 }
 
-.petiscos{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-
+.petiscos {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
 }
 
-.petiscos-conteudo p{
-    margin-top: 4.2rem;
+.petiscos-conteudo p {
+  margin-top: 4.2rem;
+}
+
+.petiscos img {
+  height: 100%;
+  object-fit: cover;
 }

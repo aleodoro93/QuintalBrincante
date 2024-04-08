@@ -10,6 +10,11 @@
   padding-bottom: 6rem;
 }
 
+.atividades img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .atividades-card {
   display: flex;
 }

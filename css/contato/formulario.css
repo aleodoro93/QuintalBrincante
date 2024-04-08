@@ -1,5 +1,8 @@
 .contato-bg {
+  display: grid;
+  align-items: center;
   background: var(--cor-p2-3);
+  min-height: calc(100vh - 148px);
   padding: 13rem 0;
 }
 

@@ -106,7 +106,7 @@
   }
   .footer {
     display: grid;
-    grid-template-columns: 230px 280px 230px;
+    grid-template-columns: 230px auto auto;
   }
 
   .footer .logo {
@@ -128,7 +128,7 @@
 
 @media (max-width: 850px) {
   .footer {
-    grid-template-columns: 130px 170px 130px;
+    grid-template-columns: 130px auto auto;
   }
   .footer h3 {
     font-size: 2rem;

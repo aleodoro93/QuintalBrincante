@@ -13,9 +13,33 @@
 }
 
 .franquiado p {
-  margin-top: 4rem;
+  margin-top: 2.4rem;
 }
 
 .franquiado .botao-esc {
   margin-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .franquiado-conteudo h3 {
+    font-size: 2rem;
+  }
+  .franquiado-conteudo h1 {
+    font-size: 5rem;
+  }
+
+  .franquiado-conteudo p {
+    margin-top: 2rem;
+    max-width: 60ch;
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .franquiado-conteudo h1 {
+    font-size: 3.8rem;
+  }
+  .franquiado-conteudo p {
+    font-size: 1.5rem;
+  }
 }

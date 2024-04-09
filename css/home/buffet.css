@@ -10,6 +10,43 @@
   gap: 12rem;
 }
 
+.buffet img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .buffet-conteudo p {
   margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .buffet-conteudo h1 {
+    font-size: 6rem;
+  }
+  .buffet-conteudo p {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .buffet-conteudo h1 {
+    font-size: 5rem;
+  }
+  .buffet-conteudo p {
+    font-size: 2rem;
+    margin-top: 1.6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .buffet {
+    gap: 6rem;
+  }
+  .buffet-conteudo h1 {
+    font-size: 3.8rem;
+  }
+  .buffet-conteudo p {
+    font-size: 1.5rem;
+  }
 }

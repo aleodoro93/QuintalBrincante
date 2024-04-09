@@ -18,3 +18,31 @@
 .conheca-conteudo p {
   margin-top: 1.2rem;
 }
+
+@media (max-width: 1200px) {
+  .conheca-conteudo h1 {
+    font-size: 6rem;
+  }
+  .conheca-conteudo p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .conheca-conteudo h1 {
+    font-size: 5rem;
+  }
+  .conheca-conteudo p {
+    font-size: 2rem;
+    margin-top: 1.6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .conheca-conteudo h1 {
+    font-size: 3.8rem;
+  }
+  .conheca-conteudo p {
+    font-size: 1.5rem;
+  }
+}

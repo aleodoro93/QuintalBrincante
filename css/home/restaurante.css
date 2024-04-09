@@ -22,3 +22,35 @@
   object-fit: cover;
   min-height: 100%;
 }
+
+@media (max-width: 1200px) {
+  .restaurante-conteudo h1 {
+    font-size: 6rem;
+  }
+  .restaurante-conteudo p {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .restaurante-conteudo h1 {
+    font-size: 5rem;
+  }
+  .restaurante-conteudo p {
+    font-size: 2rem;
+    margin-top: 1.6rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .restaurante {
+    gap: 6rem;
+  }
+  .restaurante-conteudo h1 {
+    font-size: 3.8rem;
+  }
+  .restaurante-conteudo p {
+    font-size: 1.5rem;
+  }
+}

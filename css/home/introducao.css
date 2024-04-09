@@ -22,3 +22,17 @@
   margin-top: 1.6rem;
   padding-bottom: 60px;
 }
+
+@media (max-width: 850px) {
+  .introducao img {
+    max-width: 40%;
+  }
+
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+
+  .introducao p {
+    font-size: 1.8rem;
+  }
+}

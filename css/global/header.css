@@ -15,3 +15,36 @@
   display: flex;
   gap: 32px;
 }
+
+.franquiado-link {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .botao-none {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    justify-content: center;
+  }
+  .logo-none {
+    display: none !important;
+  }
+
+  .franquiado-link {
+    display: block;
+  }
+}
+
+@media (max-width: 850px) {
+  .header ul {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+
+}

@@ -83,7 +83,6 @@
 /* Footer Endereço */
 .endereco-item {
   display: grid;
-  grid-template-columns: repeat(24px, 1fr);
   gap: 8px;
   align-items: center;
   margin-top: 2rem;
@@ -98,4 +97,48 @@
   padding: 1.5rem;
   text-align: center;
   background: var(--cor-p3-1);
+}
+
+@media (max-width: 1050px) {
+  .footer-bg {
+    height: auto;
+    padding-bottom: 6rem;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 230px 280px 230px;
+  }
+
+  .footer .logo {
+    display: none;
+  }
+
+  .footer-detalhe::after {
+    display: none;
+  }
+
+  .footer-menu-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .endereco-item  {
+    grid-template-columns: 24px 1fr !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer {
+    grid-template-columns: 130px 170px 130px;
+  }
+  .footer h3 {
+    font-size: 2rem;
+  }
+
+  .footer img {
+    width: 18px;
+  }
+
+  .footer a {
+    font-size: 1.3rem;
+  }
 }

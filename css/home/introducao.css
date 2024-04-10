@@ -23,7 +23,7 @@
   padding-bottom: 60px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   .introducao img {
     max-width: 40%;
   }
@@ -34,5 +34,29 @@
 
   .introducao p {
     font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .introducao img {
+    max-width: 30%;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+
+  .introducao p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .introducao h1 {
+    font-size: 1.5rem;
+  }
+
+  .introducao p {
+    font-size: 1.1rem;
   }
 }

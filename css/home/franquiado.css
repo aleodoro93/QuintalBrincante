@@ -1,6 +1,5 @@
 .franquiado-bg {
   background: var(--cor-p2-3);
-  padding-top: 6rem;
   padding-bottom: 6rem;
 }
 
@@ -14,6 +13,7 @@
 
 .franquiado p {
   margin-top: 2.4rem;
+  max-width: 60ch;
 }
 
 .franquiado .botao-esc {
@@ -35,11 +35,34 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .franquiado {
+    padding-top: 6rem;
+  }
+}
+
 @media (max-width: 850px) {
   .franquiado-conteudo h1 {
     font-size: 3.8rem;
   }
   .franquiado-conteudo p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .franquiado-conteudo h3 {
+    font-size: 1.6rem;
+  }
+  .franquiado-conteudo h1 {
+    font-size: 3.2rem;
+  }
+  .franquiado-conteudo p {
+    font-size: 1.3rem;
+  }
+
+  .franquiado a {
+    padding: 1.3rem 2.9rem;
     font-size: 1.5rem;
   }
 }

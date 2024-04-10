@@ -92,3 +92,43 @@
     left: -10px;
   }
 }
+
+@media (max-width: 650px) {
+  .atividades-card-conteudo {
+    padding: 40px 40px 40px 60px;
+  }
+  .atividades-card-conteudo h2 {
+    font-size: 1.5rem;
+  }
+
+  .atividades-card-conteudo p {
+    font-size: 1.2rem;
+  }
+
+  .atividades-card-conteudo h2::before {
+    width: 6px;
+    height: 11px;
+    top: 2px;
+    left: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .atividades-card-conteudo {
+    padding: 40px 40px 40px 60px;
+  }
+  .atividades-card-conteudo h2 {
+    font-size: 1.2rem;
+  }
+
+  .atividades-card-conteudo p {
+    font-size: 1rem;
+  }
+
+  .atividades-card-conteudo h2::before {
+    width: 4px;
+    height: 11px;
+    top: 0px;
+    left: -10px;
+  }
+}

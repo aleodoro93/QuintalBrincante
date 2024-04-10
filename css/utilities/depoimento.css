@@ -58,14 +58,39 @@
 
 @media (max-width: 750px) {
   .depoimento-conteudo {
-    padding-left: 0;
+    padding: 2rem 2rem 2rem 0;
   }
   .depoimento-conteudo p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .depoimento-conteudo span {
     margin-top: 8px;
     font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .depoimento {
+    gap: 3rem;
+  }
+  .depoimento-conteudo p {
+    font-size: 1.3rem;
+  }
+
+  .depoimento-conteudo span {
+    margin-top: 8px;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .depoimento-conteudo p {
+    font-size: 1.2rem;
+  }
+
+  .depoimento-conteudo span {
+    margin-top: 8px;
+    font-size: 1.4rem;
   }
 }

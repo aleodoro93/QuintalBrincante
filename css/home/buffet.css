@@ -1,12 +1,12 @@
 .buffet-bg {
   background: var(--cor-p2-4);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .buffet {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
   gap: 12rem;
 }
 
@@ -40,13 +40,42 @@
 }
 
 @media (max-width: 850px) {
+  .buffet-bg {
+    padding-top: 1rem;
+  }
+
   .buffet {
     gap: 6rem;
   }
   .buffet-conteudo h1 {
-    font-size: 3.8rem;
+    font-size: 3.5rem;
   }
   .buffet-conteudo p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .buffet {
+    gap: 4rem;
+  }
+  .buffet-conteudo h1 {
+    font-size: 2.6rem;
+  }
+  .buffet-conteudo p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .buffet {
+    gap: 3rem;
+  }
+  .buffet-conteudo h1 {
+    font-size: 2.2rem;
+  }
+  .buffet-conteudo p {
+    font-size: 1rem;
   }
 }

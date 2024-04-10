@@ -142,3 +142,29 @@
     font-size: 1.3rem;
   }
 }
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .footer h3 {
+    font-size: 2rem;
+  }
+
+  .footer-menu-nav {
+    gap: 1.4rem;
+  }
+
+  .contato-item {
+    margin-top: 1.4rem;
+  }
+
+  .footer img {
+    width: 18px;
+  }
+
+  .footer a {
+    font-size: 1.3rem;
+  }
+}

@@ -1,4 +1,3 @@
-/* Imports de home */
 @import './barra-info.css';
 @import './introducao.css';
 @import './conheca.css';
@@ -6,5 +5,4 @@
 @import './restaurante.css';
 @import './buffet.css';
 @import './experiencia.css';
-@import './depoimento.css';
 @import './franquiado.css';

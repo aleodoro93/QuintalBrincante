@@ -2,3 +2,14 @@
   padding: 1.5rem;
   background: var(--cor-p2-1);
 }
+
+@media (max-width: 650px) {
+  .barra-info-bg {
+    padding: 1rem;
+  }
+
+
+  .barra-info-bg p {
+    font-size: 1.2rem;
+  }
+}
